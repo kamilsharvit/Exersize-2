@@ -1,0 +1,14 @@
+<div [innerText]="mines"></div>
+
+<div class="grid" [ngStyle]="getStyles()">
+   <div class="item" *ngFor="let a of arrayBtn">
+           <div class="btn" (click)="open(a.index)"  (contextmenu)="funAddFlag($event,a.index)">
+                <i *ngIf="a.isFlag" class='fas fa-flag'></i>
+            <span *ngIf="(a.showNum || flagEnd) && !a.isMine" [innerText]="a.countMine"></span>
+             <i *ngIf="flagEnd && a.isMine" class='fa fa-bomb'></i>
+        </div>
+        </div> 
+  </div>
+
+  <div class="winner" *ngIf="flagWinner" [innerText]="winner"></div>
+

@@ -1,0 +1,7 @@
+<div id="allPage">
+<h2 [innerText]="myTitle"></h2>
+<h3 [innerText]="choose"></h3>
+<input type="number" [(ngModel)]="mines1" (change)="changeValue()">
+<button  class="newGame" (click)="funNewGame()" [innerText]="newGame"></button>
+<app-board *ngIf="flagGame" [mines]="mines1"></app-board>
+</div>

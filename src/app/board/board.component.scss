@@ -1,0 +1,28 @@
+:host{
+    .grid {
+        width: min-content;
+        display: grid;
+        justify-content: center;
+      }
+      .item{
+          margin: 5px;
+      }
+      .btn{
+        width: 30px;
+        height: 30px;
+        background-color: rgb(206, 204, 204);
+        border: black solid 3px;
+        text-align: center;
+        font-size: x-large;
+    }
+    .winner{
+        font-size: 50px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: rgb(255, 255, 134);
+        border-radius: 10px;
+        width: 100%;
+    }
+      
+     
+}
