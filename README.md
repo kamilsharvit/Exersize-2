@@ -26,7 +26,7 @@ showNum האם הכפתור מוצג על המסך
 
 שינה אפשרות למשתמש לסמן בדגל מיקום בלוח הנראה לו פצצה על ידי לחיצה במקש הימני בעכבר וכאשר הוא לוחץ אז הisFlag משתנה לtrue וכך ישנה אפשרות לדעת שבמקום זה סומן דגל.
 
-![image](https://user-images.githubusercontent.com/89073905/150669621-79f6efc0-2978-4c28-865d-aae61bbf5ba4.png)
+![image](https://user-images.githubusercontent.com/89073905/150669926-8234398d-7cb2-41a6-b59c-eb8026dfd773.png)
 
 המשחק מסתיים בשני מקרים:
 
